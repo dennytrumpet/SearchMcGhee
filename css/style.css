@@ -1,0 +1,23 @@
+#select-type {
+    margin: 0;
+    list-style: none;
+    padding: 0 10px;
+}
+#select-type li:not(:first-child) {
+    display: none;
+}
+
+.open li:not(:first-child) {
+    background-color: #EBF1F5;
+    display: block !important;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    z-index: 500;
+    line-height: 14px;
+}
+.open li:hover {
+    background-color: #7da6de;
+    color: #FFFFFF;
+}
